@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<link rel = "stylesheet" type = "text/css" href = "theseus_style.css" />
+
+<script src = "theseusI.js" type = "text/javascript"></script>
+
+<head> 
+
+<title>Theseus Maze I</title>
+
+<meta charset="utf-8" />
+
+
+</head>
+
+	<body onload ="runGame()">
+	
+	<table id ="maze">
+<tr>
+<td id="c00"></td><td id = "c01"></td><td id="c02"></td><td id = "c03"></td>
+</tr>
+
+<tr>
+<td id ="c10"></td><td id="c11"></td><td id="c12"></td><td id="c13"></td>
+</tr>
+
+<tr>
+<td id="c20"></td><td id="c21"></td><td id="c22"></td><td id="c23"></td>
+</tr>
+
+	
+	</table>
+	
+<div id = "directions">
+<div id = "up" class = "interface" onclick = "playRound(this)"><img src ="images/upArrow.jpg" alt ="Up Arrow" title ="Up"/></div>
+<div id = "left" class = "interface middleRow" onclick = "playRound(this)"><img src ="images/leftArrow.jpg" alt ="Left Arrow" title ="Left"/></div>
+<div id ="stay" class = "interface middleRow" onclick = "playRound (this)"> <img src ="images/hand.jpg" alt ="Open palm" title ="Stay"/></div>
+<div id= "right" class = "interface middleRow" onclick = "playRound(this)"><img src ="images/rightArrow.jpg" alt ="Right Arrow" title ="Right"/></div>
+<div id = "down" class = "interface" onclick = "playRound(this)"><img src ="images/downArrow.jpg" alt ="Down Arrow" title ="Down"/></div>
+<div id ="restart"> <form action = "./theseus_maze_I.html">
+		<input type = "submit" value = "Restart">
+	  </form>
+	  </div>
+<div id ="changeMaze"> <form action = "./theseus_maze_II.html">
+		<input type = "submit" value = "Next Maze">
+	  </form>
+</div>
+	
+
+	</body>
+
+</html>

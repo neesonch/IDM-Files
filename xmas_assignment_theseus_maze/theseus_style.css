@@ -1,0 +1,56 @@
+
+
+#maze { margin: auto;
+		margin-top: 50px;	
+		margin-bottom: 5px;
+		border: none;
+		border-spacing: 0px;
+		text-align: center;
+		}
+		
+td { height: 60px;
+	width: 60px;
+	border: 1px solid black;
+	}
+	
+#directions {margin: auto;
+			text-align: center;
+			clear: both;}
+			
+#restart, #changeMaze { margin-top: 10px;
+				`	margin-bottom: 10px;
+					}
+		
+.middleRow {display: inline;
+		}
+	
+	
+/* Middle cell 	
+#c11 { border-top: 1px solid black;
+	   border-right: 1px solid black;
+	   border-bottom: 1px solid black;
+	   }
+	
+/* Top-right cell 	
+#c03 { border-top: 2px solid white;
+		border-right: 2px solid white;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+		}
+	
+/*Bottom-right cell 	
+#c23 { border-top: 2px solid black;
+		border-right: 2px solid white;
+		border-left: 2px solid black;
+		border-bottom: 2px solid white;
+		}
+		
+/*Middle-right cell 	
+#c13 { 	background-color: lightGreen;
+		border-top: 2px solid black;
+		border-right: 2px solid white;
+		border-left: 2px solid white;
+		border-bottom: 2px solid black;
+		} 
+		
+*/
