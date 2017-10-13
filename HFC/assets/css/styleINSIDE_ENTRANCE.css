@@ -1,0 +1,280 @@
+.menu{
+/*overflow-x: hidden;*/
+bottom:-245px;
+position: fixed;
+height: 245;
+}
+
+
+
+.menu-open .menu-side{
+left:0;
+bottom: 0px;
+position: fixed;
+}
+
+
+
+body{
+background-image:url('../img/images/ftwindowinside.jpg');
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body:after{
+    display:none;
+    content: url('../img/images/ftwindowinside.jpg') url('../img/rollover_images/ro_ftwindowinside.jpg') url('../img/b&w_images/ftwindowinside.jpg');
+}
+
+.window{
+background-image:url('../img/rollover_images/ro_ftwindowinside.jpg');
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-side,
+.menu {
+	-webkit-transition: left 0.2 s ease;
+	-moz-transition: left 0.2s ease;
+	transition: left 0.2s ease;
+
+}
+
+.menu-side,
+img {
+	-webkit-transition: bottom 0.2 s ease;
+	-moz-transition: bottom 0.2s ease;
+	transition: bottom 0.2s ease;
+}
+
+
+
+
+
+.pictiúr{
+float: right;
+width: 500px;
+}
+
+.menu-side{
+left: 0;
+bottom:-245px;
+position: fixed;
+opacity: .5;
+background-color:black;
+color: #fff;
+position: fixed;
+width: 100%;
+height: 245px;
+}
+
+.logo{
+float: right;
+}
+
+.testclick {
+	width: 270px;
+	height: 500px;
+	top: 20%;
+	left: 41%;
+	position: absolute;
+	opacity: 0.1;
+
+	}
+
+
+
+
+
+
+#back{
+
+
+	color:white;
+	background-color: white;
+	width: 220px;
+	height: 30px;
+	margin-top: 10px;
+z-index: 1;
+position:absolute;
+left:140;
+	text-align:center; 
+	border: 1px solid;
+	border-color: black;
+
+}
+
+.floorPlan{
+width: 60%;
+z-index: 0;
+left: 30px;
+position: fixed;
+}
+
+#smallRoomLeft{
+float: left;
+display: block;
+	color:white;
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	position:absolute;
+		top:40;
+			text-align:center; 
+border: 1px solid;
+	border-color: black;
+
+
+}
+
+#leftRoom{
+float: left;
+display: block;
+	color:white;
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	z-index: 1;
+	position:absolute;
+	left: 100px;
+		top:40;
+			text-align:center; 
+border: 1px solid;
+	border-color: black;
+
+
+}
+
+#rightRoom{
+float:left;
+display: block;
+	color:white;
+	background-color: white;
+	width: 150px;
+	height: 150px;
+			z-index: 1;
+position:absolute;
+left:250px;
+	top:40;
+		text-align:center; 
+border: 1px solid;
+	border-color: black;
+
+}
+
+#smallRoomRight{
+float: left;
+display: block;
+	color:white;
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	position:absolute;
+	left:400px;
+	top:40;
+	text-align:center; 
+
+border: 1px solid;
+	border-color: black;
+}
+
+#back:hover {
+width:225;
+height:35;
+	background-color: red;
+	z-index: +2;
+	line-height: 35px;
+	
+	
+	
+}
+
+#smallRoomLeft:hover {
+top: 30;
+width: 120;
+	height: 120;
+	left: -5;
+	background-color: red;
+	z-index: +2;
+		line-height: 120px;
+
+}
+
+#smallRoomRight:hover {
+	top: 30;
+left: 395px;
+width: 120;
+	height: 120;
+	background-color: red;
+	z-index: +1;
+		line-height: 120px;
+
+}
+
+
+
+#leftRoom:hover{
+		top: 30px;
+		left: 95;
+	width: 170px;
+	height: 170px;
+	background-color: red;
+	z-index: +2;
+	display:table-cell; 
+	vertical-align:middle;
+		line-height: 170px;
+
+}
+
+#rightRoom:hover{
+		top: 30px;
+	left: 245px;
+	width: 170px;
+	height: 170px;
+	background-color: red;
+		z-index: +1;
+	line-height: 170px;
+
+}
+
+div:hover{
+-webkit-transition: bottom 1 s ease;
+	-moz-transition: bottom 1s ease;
+	transition: bottom 1s ease;
+}
+
+
+.rooms{
+position: auto;
+}
+
+
+.menu-open{
+background-image: url('../img/b&w_images/ftwindowinside.jpg');
+}
+
+/* THIS IS THE NEW NAV BAR STUFF --------------------------------------------------------------------- */
+
+
+#parentDIV{
+width:100%;
+margin: 0 auto;
+text-align: center;
+}
+
+
+
+
+ table{
+ display: inline-block;
+border-collapse: collapse;
+border-spacing: 0 0;
+border-width: -5;
+padding: 0;
+}
+ 
+img, td, tr{
+padding:0;
+}
+

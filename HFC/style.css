@@ -1,0 +1,107 @@
+.menu{
+/*overflow-x: hidden;*/
+bottom:-245px;
+position: fixed;
+height: 245;
+}
+
+.menu-open{
+background-image: url('assets/img/club2.jpg');
+}
+
+.menu-open .menu-side{
+left:0;
+bottom: 0px;
+position: fixed;
+}
+
+
+
+.logo{
+width: 100%;
+float: right;
+position: fixed;
+margin: auto;
+top: -400;
+}
+
+.logo img{
+display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.menu-open .logo{
+top:50;
+left:auto;
+  display:block;
+    margin:auto;
+}
+
+
+body{
+background-image:url('assets/img/club.jpg');
+background-size: cover;
+    background-repeat: no-repeat;
+	 
+	
+}
+
+body:after{
+    display:none;
+    content: url('assets/img/club.jpg') url('assets/img/club2.jpg');
+}
+
+
+
+.menu-side {
+	-webkit-transition: bottom 0.2 s ease;
+	-moz-transition: bottom 0.2s ease;
+	transition: bottom 0.2s ease;
+
+}
+
+.logo {
+-webkit-transition: top 0.2 s ease;
+	-moz-transition: top 0.2s ease;
+	transition: top 0.2s ease;
+}
+
+
+.menu-side{
+left: 0;
+bottom:-245px;
+position: fixed;
+opacity: .5;
+
+background-color:black;
+color: #fff;
+position: fixed;
+width: 100%;
+height: 245px;
+}
+
+
+
+/* THIS IS THE NEW NAV BAR STUFF --------------------------------------------------------------------- */
+
+
+#parentDIV{
+width:100%;
+margin: 0 auto;
+text-align: center;
+}
+
+
+
+ table{
+ display: inline-block;
+border-collapse: collapse;
+border-spacing: 0 0;
+border-width: -5;
+padding: 0;
+}
+ 
+img, td, tr{
+padding:0;
+}
+
