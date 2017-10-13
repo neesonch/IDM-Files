@@ -1,7 +1,7 @@
 <?php
 
 // PDO connection code
-$db= new PDO('mysql:host=localhost;dbname=forum_test;charset=utf8', 'root', 'ChxnSQL1');
+$db= new PDO('mysql:host=localhost;dbname=forum_test;charset=utf8', 'root', '_');
 
 /* // ------ Original connection code -------
 $server='localhost';
