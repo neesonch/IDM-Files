@@ -6,7 +6,7 @@ $db= new PDO('mysql:host=localhost;dbname=forum_test;charset=utf8', 'root', '_')
 /* // ------ Original connection code -------
 $server='localhost';
 $username='root';
-$password='ChxnSQL1';
+$password=''; //DB password here
 $database='forum_test';
 
 if (!mysql_connect($server, $username, $password)) {
